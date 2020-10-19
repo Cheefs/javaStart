@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/headfirstExamples/headFirstJavaMidi/headFirstJavaMidi.iml" filepath="$PROJECT_DIR$/headfirstExamples/headFirstJavaMidi/headFirstJavaMidi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headfirstExamples/headFirstJavaRMI/headFirstJavaRMI.iml" filepath="$PROJECT_DIR$/headfirstExamples/headFirstJavaRMI/headFirstJavaRMI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/javaStart.git.iml" filepath="$PROJECT_DIR$/.idea/javaStart.git.iml" />
+    </modules>
+  </component>
+</project>
