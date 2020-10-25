@@ -46,8 +46,6 @@ public class Main {
             boolean isWin = true;
             for ( Obstacle obstacle: obstacles ) {
 
-//                System.out.println("**************" +  obstacle.handle( subject ) + "*******************");
-
                 if ( !obstacle.handle( subject )  ) {
                     isWin = false;
                     System.out.println( subject.getName() + " " + "can`t handle obstacle" + " " + obstacle.geInfo() );
