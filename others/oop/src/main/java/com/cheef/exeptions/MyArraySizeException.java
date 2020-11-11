@@ -1,4 +1,7 @@
 package com.cheef.exeptions;
 
-public class MyArraySizeException extends Exception {
+public class MyArraySizeException extends MyBaseException {
+    public MyArraySizeException() {
+        super("MyArraySizeException");
+    }
 }
