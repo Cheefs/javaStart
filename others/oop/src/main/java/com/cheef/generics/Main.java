@@ -42,6 +42,8 @@ public class Main {
             System.out.println( item );
         }
         System.out.println("================= /Task 1 =========================");
+
+
         System.out.println("================= Task 2 ==========================");
 
         Integer[] testToList = { 1, 2, 3, 4, 5, 6, 7 };
@@ -53,10 +55,33 @@ public class Main {
         for ( Integer item: listOfInts ) {
             System.out.println( item );
         }
-
         System.out.println("================= /Task 2 =========================");
+
+
         System.out.println("================= Task 3 =========================");
-        
+
+        Box<Apple> appleBox = new Box<>();
+        for ( int i = 0; i < 100; i++ ) {
+            appleBox.addItem( new Apple() );
+        }
+        System.out.println( "appleBox weight: " + appleBox.getWeight() );
+
+        Box<Orange> orangeBox = new Box<>();
+        for ( int i = 0; i < 50; i++ ) {
+            orangeBox.addItem( new Orange() );
+        }
+        System.out.println( "orangeBox weight: " + orangeBox.getWeight() );
+        System.out.println( appleBox.compare( orangeBox ) );
+
+
+        Box<Apple> newAppleBox = new Box<>();
+        appleBox.pull( newAppleBox );
+
+        System.out.println( "appleBox weight after pull: " +  appleBox.getWeight() );
+        System.out.println( "newAppleBox weight after pull: " +  newAppleBox.getWeight() );
+        appleBox.addItem( new Apple());
+
         System.out.println("================= /Task 3 =========================");
+
     }
 }
